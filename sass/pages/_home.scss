@@ -4,6 +4,10 @@
   color: var(--color-text-light);
   padding: 4rem 9.6rem 9.6rem 9.6rem;
 
+  @include respond(phone) {
+    padding: 4rem;
+  }
+
   &__content-box {
     font-size: 2.4rem;
     font-weight: 300;
@@ -75,6 +79,10 @@
   background-color: var(--color-tertiary);
   padding: 9.6rem;
 
+  @include respond(phone) {
+    padding: 9.6rem 2rem;
+  }
+
   &__grid {
     margin: 0 auto;
     gap: 4rem;
@@ -134,6 +142,9 @@
   min-height: 60rem;
   padding: 9.6rem;
   background-color: var(--color-secondary);
+  @include respond(phone) {
+    padding: 9.6rem 2rem;
+  }
 
   &__grid {
     gap: 4rem;
@@ -165,6 +176,9 @@
   background-color: var(--color-tertiary);
   padding: 9.6rem;
   position: relative;
+  @include respond(phone) {
+    padding: 9.6rem 2rem;
+  }
 
   &__img-box {
     width: 14rem;
@@ -252,6 +266,9 @@
   min-height: 30rem;
   background-color: var(--color-secondary);
   padding: 9.6rem;
+  @include respond(phone) {
+    padding: 9.6rem 2rem;
+  }
 
   &__grid {
     gap: 2rem;

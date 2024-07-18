@@ -5,6 +5,9 @@
 
   &__grid {
     padding: 4rem;
+    @include respond(phone) {
+      padding: 0;
+    }
     &-item {
       color: var(--color-text-dark);
       padding: 4rem;

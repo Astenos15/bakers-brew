@@ -85,20 +85,32 @@ WHITESPACE
 body {
   font-family: var(--text-font);
   padding: 2rem; }
+  @media only screen and (max-width: 37.5em) {
+    body {
+      padding: 0; } }
 
 .heading-primary {
   font-family: var(--display-font);
   font-size: 7.4rem;
   font-weight: 100;
   letter-spacing: -1px; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      font-size: 6.2rem; } }
 
 .heading-secondary {
   font-family: var(--display-font);
   font-size: 5.2rem; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-secondary {
+      font-size: 4.4rem; } }
 
 .heading-tertiary {
   font-family: var(--display-font);
   font-size: 3.6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-tertiary {
+      font-size: 3rem; } }
 
 .text {
   font-size: 1.6rem;
@@ -274,6 +286,9 @@ body {
   color: var(--color-text-light); }
   .footer__grid {
     padding: 4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .footer__grid {
+        padding: 0; } }
     .footer__grid-item {
       color: var(--color-text-dark);
       padding: 4rem; }
@@ -312,6 +327,9 @@ body {
   background-color: var(--color-primary);
   color: var(--color-text-light);
   padding: 4rem 9.6rem 9.6rem 9.6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      padding: 4rem; } }
   .header__content-box {
     font-size: 2.4rem;
     font-weight: 300;
@@ -357,6 +375,9 @@ body {
 .about {
   background-color: var(--color-tertiary);
   padding: 9.6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .about {
+      padding: 9.6rem 2rem; } }
   .about__grid {
     margin: 0 auto;
     gap: 4rem; }
@@ -398,6 +419,9 @@ body {
   min-height: 60rem;
   padding: 9.6rem;
   background-color: var(--color-secondary); }
+  @media only screen and (max-width: 37.5em) {
+    .menu {
+      padding: 9.6rem 2rem; } }
   .menu__grid {
     gap: 4rem;
     max-width: 120rem;
@@ -423,6 +447,9 @@ body {
   background-color: var(--color-tertiary);
   padding: 9.6rem;
   position: relative; }
+  @media only screen and (max-width: 37.5em) {
+    .testimonials {
+      padding: 9.6rem 2rem; } }
   .testimonials__img-box {
     width: 14rem;
     height: 14rem;
@@ -487,6 +514,9 @@ body {
   min-height: 30rem;
   background-color: var(--color-secondary);
   padding: 9.6rem; }
+  @media only screen and (max-width: 37.5em) {
+    .cta {
+      padding: 9.6rem 2rem; } }
   .cta__grid {
     gap: 2rem; }
     .cta__grid-item {
