@@ -352,6 +352,7 @@ body {
     animation: moveInBottom 1s ease 0.01s; }
   .header__content-btn-box {
     display: flex;
+    flex-direction: column;
     gap: 2rem; }
   .header__btn {
     border: none;
