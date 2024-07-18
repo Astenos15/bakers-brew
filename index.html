@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" defer src="/js/index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation mb-md">
+        <a href="#" class="navigation__logo">Bakers Brew</a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">About</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Menu</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <button class="navigation__signin">Sign In</button>
+      </nav>
+      <div class="header__content-box header-grid">
+        <div class="header__content header__content-text">
+          <h1 class="heading-primary mb-sm">Food and Coffee for the Soul</h1>
+          <p class="mb-md">
+            Awaken Your Senses, Delight Your Soul.Experience The Rich and Bold
+            Flavors of Our Coffee and Bake goods.
+          </p>
+          <div class="header__content header__content-btn-box">
+            <button class="header__btn header__btn-full">Order Now</button>
+            <button class="header__btn header__btn-outline">
+              Explore More
+            </button>
+          </div>
+        </div>
+        <div class="header__content header__content-img">&nbsp;</div>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="about__grid grid-2-cols">
+          <div class="about__img about__img-1">
+            <img src="/img/about-01.jpg" alt="photo of prices" />
+          </div>
+          <div class="about__text about__text-1">
+            <h2 class="heading-secondary mb-sm">Pre-order Now</h2>
+            <p class="mb-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+              dicta! Corporis, repudiandae velit? Suscipit porro officiis
+              eligendi praesentium ducimus aut non, enim quasi explicabo harum
+              provident et reprehenderit! Voluptate, dolorem?
+            </p>
+            <button class="btn-contact">Order Now</button>
+          </div>
+
+          <div class="about__text about__text-2">
+            <h2 class="heading-secondary mb-sm">Stay Hydrated</h2>
+            <p class="mb-md">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              non officia excepturi voluptate ipsa ducimus illo sunt fuga rerum
+              iure eveniet aut consequatur officiis voluptatem, facere quod id
+              modi voluptates!
+            </p>
+            <button class="btn-contact">Order Now</button>
+          </div>
+
+          <div class="about__img about__img-2">
+            <img src="/img/about-02.jpg" alt="photo of prices" />
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="menu__box">
+          <div class="heading-box text-center mb-md">
+            <h2 class="heading-secondary">Our Bestsellers</h2>
+          </div>
+          <div class="menu__grid grid-3-cols">
+            <div class="menu__grid-item card">
+              <div class="card__img-box mb-xs">
+                <img src="/img/smores.jpg" alt="photo of smores cookie" />
+              </div>
+              <div class="card__content">
+                <h3 class="heading-tertiary mb-xs">Smores</h3>
+                <p class="text mb-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                  ex deleniti modi molestiae accusantium magnam, saepe similique
+                  id alias expedita iste eveniet aperiam aliquid maiores ratione
+                  nesciunt, praesentium tenetur nemo?
+                </p>
+                <button class="btn-order">Order Now !</button>
+              </div>
+            </div>
+            <div class="menu__grid-item card">
+              <div class="card__img-box mb-xs">
+                <img src="/img/triple-choco.jpg" alt="photo of smores cookie" />
+              </div>
+              <div class="card__content">
+                <h3 class="heading-tertiary mb-xs">Triple Chocolate</h3>
+                <p class="text mb-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                  ex deleniti modi molestiae accusantium magnam, saepe similique
+                  id alias expedita iste eveniet aperiam aliquid maiores ratione
+                  nesciunt, praesentium tenetur nemo?
+                </p>
+                <button class="btn-order">Order Now !</button>
+              </div>
+            </div>
+            <div class="menu__grid-item card">
+              <div class="card__img-box mb-xs">
+                <img src="/img/cookie-monster.jpg" alt="photo of cookie" />
+              </div>
+              <div class="card__content">
+                <h3 class="heading-tertiary mb-xs">Cookie Monster</h3>
+                <p class="text mb-sm">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+                  ex deleniti modi molestiae accusantium magnam, saepe similique
+                  id alias expedita iste eveniet aperiam aliquid maiores ratione
+                  nesciunt, praesentium tenetur nemo?
+                </p>
+                <button class="btn-order">Order Now !</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="testimonials__container">
+          <div class="heading-box text-center mb-md">
+            <h2 class="heading-secondary">What Our Customers Says</h2>
+          </div>
+
+          <div class="testimonials__img-box">
+            <img
+              src="https://mighty.tools/mockmind-api/content/human/65.jpg"
+              alt="photo of customer"
+            />
+          </div>
+          <div class="testimonials__content">
+            <p class="testimonials__text text-center mb-sm">
+              Girl legit ha masarap tsaka siksik di lang ako mapost.. pero sa
+              taas ng standards namin mag asawa sa foods.. super goods yung
+              cookies..
+            </p>
+            <div class="testimonials__rating">
+              <svg class="testimonials__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="testimonials__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="testimonials__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="testimonials__icon">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+              <svg class="testimonials__icon mb-xs">
+                <use xlink:href="img/sprite.svg#icon-star"></use>
+              </svg>
+            </div>
+            <p class="testimonials__author text-center">John Smith</p>
+          </div>
+          <button class="testimonials__btn testimonials__btn-left">
+            <svg class="testimonials__icon">
+              <use xlink:href="img/sprite.svg#icon-chevron-thin-left"></use>
+            </svg>
+          </button>
+          <button class="testimonials__btn testimonials__btn-right">
+            <svg class="testimonials__icon">
+              <use xlink:href="img/sprite.svg#icon-chevron-thin-right"></use>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="cta__grid grid-2-cols">
+          <div class="cta__grid-item">
+            <h2 class="heading-secondary">
+              Stay Updated On All News and Offers.
+            </h2>
+          </div>
+          <div class="cta__grid-item">
+            <p class="mb-sm">
+              Be the first to know about new collections,special events, and
+              what's going on at kitchen
+            </p>
+            <form action="#">
+              <input
+                type="email"
+                required
+                placeholder="Enter your email address"
+                name="email"
+                id="email"
+              />
+              <button type="submit">submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__grid grid-2-cols">
+        <div class="footer__grid-item">
+          <div class="footer__grid-item-img">
+            <img src="/img/footer-img2.jpg" alt="photo of qoutes" />
+          </div>
+        </div>
+        <div class="footer__grid-item">
+          <h3 class="heading-tertiary mb-sm">Follow Us</h3>
+          <a
+            class="footer__link mb-sm"
+            href="https://www.facebook.com/profile.php?id=100090202916321"
+            target="_blank"
+          >
+            <svg class="footer__icon">
+              <use xlink:href="/img/sprite.svg#icon-facebook-with-circle"></use>
+            </svg>
+            BakersBrew
+          </a>
+          <div class="footer__grid-item-img-2">
+            <img src="/img/footer-img.jpg" alt="BakersBrew Logo" />
+          </div>
+        </div>
+      </div>
+      <div class="footer__end">
+        <p class="text">
+          Copyright&copy;: BakersBrew <span class="date"></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.card {
+  box-shadow: var(--shadow-dark);
+  &__img-box {
+    width: 100%;
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__content {
+    padding: 2rem;
+  }
+}
