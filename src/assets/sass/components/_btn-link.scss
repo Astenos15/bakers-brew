@@ -1,0 +1,21 @@
+.btn-link {
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 2rem 4rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: 1px solid var(--color-primary);
+  }
+
+  &--full {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+  }
+  &--outline {
+    background-color: #fff;
+    color: var(--color-text-dark);
+  }
+}

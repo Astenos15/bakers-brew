@@ -1,0 +1,25 @@
+body {
+  font-family: "Inter", system-ui;
+}
+
+.heading-primary {
+  font-size: 12rem;
+  font-weight: 300;
+  letter-spacing: -10px;
+  line-height: 1;
+  text-transform: capitalize;
+  color: var(--color-text-dark);
+
+  span {
+    display: inline-block;
+    font-family: var(--display-font);
+    font-style: italic;
+    color: inherit;
+  }
+}
+
+.text {
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  font-size: 1.6rem;
+}

@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/btn-link";
+@import "components/features";
+@import "components/card";
+
+@import "layout/container";
+@import "layout/hero";
+@import "layout/navigation";
+@import "layout/grid";
