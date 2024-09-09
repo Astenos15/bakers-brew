@@ -10,5 +10,9 @@
     height: 4px;
     width: 10%;
     background-color: var(--color-secondary);
+
+    @include respond(phone) {
+      width: 30%;
+    }
   }
 }

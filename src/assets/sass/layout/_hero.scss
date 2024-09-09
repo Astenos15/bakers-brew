@@ -37,5 +37,10 @@
     display: flex;
     z-index: 2;
     gap: 1rem;
+
+    @include respond(phone) {
+      flex-direction: column;
+      width: 60%;
+    }
   }
 }
