@@ -1,0 +1,16 @@
+.btn-action {
+  border: none;
+  background: none;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+  border: 1px solid var(--color-primary);
+  background-color: #fff;
+  border-radius: 100px;
+
+  &--active {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+  }
+}

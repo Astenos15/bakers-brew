@@ -8,9 +8,12 @@
 @import "base/typography";
 @import "base/utilities";
 
-@import "components/btn-link";
+@import "components/buttons/btn-link";
+@import "components/buttons/btn-action";
 @import "components/features";
 @import "components/card";
+@import "components/title";
+@import "components/categories";
 
 @import "layout/container";
 @import "layout/hero";

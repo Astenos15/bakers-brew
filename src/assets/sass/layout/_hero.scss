@@ -12,6 +12,12 @@
     z-index: 1;
     width: 100%;
     height: 100%;
+    @include respond(tab-port) {
+      right: 5%;
+    }
+    @include respond(phone) {
+      display: none;
+    }
 
     img {
       height: 100%;

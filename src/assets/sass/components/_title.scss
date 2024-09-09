@@ -1,0 +1,14 @@
+.title {
+  // background-color: green;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__underline {
+    height: 4px;
+    width: 10%;
+    background-color: var(--color-secondary);
+  }
+}

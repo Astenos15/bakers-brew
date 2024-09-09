@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ name, img, category }) => {
+const Card = ({ name, img }) => {
   return (
     <article className="card">
       <img src={img} alt={name} />

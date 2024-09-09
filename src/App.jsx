@@ -8,9 +8,18 @@ import Menu from "./components/Menu";
 
 const allCategories = [...new Set(menu.map((item) => item.category))];
 
+const initialMenu = menu.filter((item) => item.category === "cookies");
+
 const App = () => {
   const [categories, setCategories] = useState(allCategories);
-  const [menuItems, setMenuItems] = useState(menu);
+  const [menuItems, setMenuItems] = useState(initialMenu);
+  const [isActive, setIsActive] = useState("cookies");
+
+  const filterMenu = (category) => {
+    const newMenu = menu.filter((item) => item.category === category);
+    setMenuItems(newMenu);
+    setIsActive(category);
+  };
   return (
     <>
       <header style={{ position: "relative" }}>
@@ -18,7 +27,12 @@ const App = () => {
       </header>
       <main>
         <Features menu={menu} />
-        <Menu menuItems={menuItems} />
+        <Menu
+          menuItems={menuItems}
+          categories={categories}
+          filterMenu={filterMenu}
+          isActive={isActive}
+        />
       </main>
     </>
   );
